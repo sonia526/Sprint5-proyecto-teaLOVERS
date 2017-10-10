@@ -1,0 +1,108 @@
+$font-principal:'Francois One', sans-serif;
+$font-minusculas: 'Archivo Black', sans-serif;
+body{
+	// background-color:onarge;
+	margin:0;
+	padding:0;
+
+}
+@import 'parciales/header.scss';
+/* seccion-uno*/
+#seccion-uno{
+	margin-top:0px;
+    background-image: url(../img/fondo-bienvenida.jpg);
+    heigh:100vh;
+  
+    background-size: cover;
+    background-position: center;
+.sombra{
+  // background-color: rgba(0, 125, 157, 0.8);
+   // background-image:url(../img/bienvenida.png);
+   // margin-lefh:500px;
+   align-items:center;
+  // padding: 110px 20px 250px 330px;
+  width:1hv;
+   }
+}
+/**/
+#seccion-dos{
+	background-color:black;
+iframe{
+	padding-lefh:5px;
+	width:100%;
+	height:700px;
+    }
+  }
+/**/
+.seccion-tres{
+	background-image: url(../img/fondo-about.jpg);
+    width:100%;
+    padding: 110px 20px 350px 330px;
+    background-size: cover;
+    background-position: center;
+.text-justify{
+	color: white;
+	font-size:16px;
+	font-family:$font-minusculas;
+     }
+.titulo{
+	font-family:$font-principal;
+	font-size:60px;
+	color: white;
+    }   
+.text-seccion3{
+	margin-top:-70px;
+	margin-lefh:300px;
+		}
+  }
+/*seccion4*/
+.seccion-cuatro{
+	margin-rigth:500px;
+	.grilla-uno{
+		margin-lefh:100px
+	}
+}
+
+.grilla-cuatro{
+	padding-lefh:5px;
+	margin-lefh:10px;
+}
+.cajilla-imagen{
+	margin-lefh:10px
+}
+/*seccion4*/
+/*seccion-cinco*/
+.seccion-cinco{
+	margin-top:30px;
+}
+/**/
+/*secccion-seis*/
+.seccion-seis{
+	background-image: url(../img/disfruta.jpg);
+    width:100%;
+    padding: 110px 20px 350px 330px;
+    background-size: cover;
+    background-position: center;
+    .grilla{
+    	margin-top:200px
+    }
+    .texto-grillate{
+    	font-size:80px;
+    	width:600px;
+    	margin:0 0 0 150px;
+    	color:white;
+    }
+}
+/**/
+/*secccion-siete*/
+// .seccion-siete{
+
+	.S7-grilla{
+		background-color:#efe7ae;
+		height:800px;
+      .img-tacita{
+      	align-items:center;
+      	margin-raght:30px;
+
+      }
+}
