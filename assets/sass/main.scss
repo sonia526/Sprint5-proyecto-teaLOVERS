@@ -1,7 +1,7 @@
 $font-principal:'Francois One', sans-serif;
 $font-minusculas: 'Archivo Black', sans-serif;
 body{
-	// background-color:onarge;
+	outline:1px solid black;
 	margin:0;
 	padding:0;
 
@@ -74,6 +74,7 @@ iframe{
 /*seccion-cinco*/
 .seccion-cinco{
 	margin-top:30px;
+
 }
 /**/
 /*secccion-seis*/
@@ -96,13 +97,96 @@ iframe{
 /**/
 /*secccion-siete*/
 // .seccion-siete{
-
+.seccion-siete{
 	.S7-grilla{
 		background-color:#efe7ae;
-		height:800px;
+		height:100vh;
       .img-tacita{
+        posicion:absolute;
       	align-items:center;
       	margin-raght:30px;
+      }
+      .text-caja-img{
+       position:relative;
+       width:50px;
+       height:50px;
+       margin:0 0 0 150px;
+      }
+      .img-taza{
+        position:relative;
+        margin-top:100px;
+        margin-lefh:20px;
+      }
+   }
+}
+/*seccion-ocho*/
+.seccion-ocho{ 
+    .S8-grilla{
+      background-color:#7EAD39;
+      height:100vh;
+    }
+      .img-tacita{
+        posicion:absolute;
+        align-items:center;
+        margin-raght:30px;
+       
 
       }
-}
+      .text-caja-img{
+       position:relative;
+       width:330px;
+       height:333px;
+       margin:0 0 0 150px;
+      }
+      .img-taza{
+        // position:relative;
+        margin-top:100px;
+        margin-lefh:20px;
+        
+      }
+   }
+   /*seccion-nueve*/
+   .seccion-nueve{ 
+       
+    .S9-grilla{
+      background-color:#ed9a9d;
+      height:100vh;
+    }
+      .img-tacita{
+        posicion:absolute;
+        align-items:center;
+        margin-raght:30px;
+      }
+      .text-caja-img{
+       position:relative;
+       width:330px;
+       height:333px;
+       margin:0 0 0 150px;
+      }
+      .img-taza{
+        // position:relative;
+        margin-top:100px;
+        margin-lefh:20px;   
+      }
+   }
+   /*seccion-nueve*/
+   /*seccion-diez*/
+   .seccion-diez{
+  background-image: url(../img/parallax-4.jpg);
+    width:100%;
+    height:100vh;
+    // padding: 120px 20px 370px 330px;
+    background-size: cover;
+    background-position: center;
+.titulo{
+  align-items:center;
+  margin-top:400px;
+  font-family:$font-principal;
+  font-size:80px;
+    color: white;
+    }   
+.text-seccion3{
+  margin-top:-70px;
+  margin-lefh:300px;
+    }
+  }
